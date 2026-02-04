@@ -1,7 +1,5 @@
-{
-    "presets": [
-        "@babel/env",
-        "@babel/react"
-    ],
-    "plugins": ["@babel/plugin-proposal-class-properties"]
-}
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+
+ReactDOM.render(<App />,document.getElementById("root"));
